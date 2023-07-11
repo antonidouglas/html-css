@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens digitais</title>
+</head>
+<body>
+    <h1>Tipos de Imagens</h1>
+    <h2>Imagens flexiveis</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/gaara-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/gaara-m.jpg" type="image/jpg"> 
+        <img src="imagens/gaara-g.jpg" alt="Gaara do Deserto">
+    </picture>
+    <h1 style="color: blue;"">Lista de Audios</h1>
+    <h2>Pega no Breu</h2>
+    <audio src="midias/breu.mp3" controls  autoplay loop></audio>
+    <audio controls preload="auto" autoplay loop>
+        <source src="midias/breu.mp3" type="audio/mpeg">   
+        <source src="midias/breu.mp3" type="audio/ogg"> 
+        <source src="midias/breu.mp3" type="audio/wav"> <!--arquivos exageradamente grandes-->
+        <p>infelizmente o navegador nao tem suporte baixe o arquivo <a href="midias/breu.mp3">clicando aqui</a></p>     
+    </audio>
+    <audio src="midias/breu.mp3" controls  autoplay loop></audio>
+    <br>
+    <h1 style="font-family: sans-serif; color: red;">Videos Local</h1>
+    <video width="400" src="midias/cat.webm"  poster="imagens/download.png" controls></video> <!--melhores formatos são MPEG OGG WEBM-->
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    
+</body>
+</html>

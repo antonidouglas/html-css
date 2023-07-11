@@ -1,0 +1,199 @@
+@font-face {
+    font-family: Android;
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top,rgba(15, 37, 22, 0.596) 3%,rgba(35, 36, 35, 0.219));
+    color: white;
+    min-height: 150px;
+
+}
+
+header h1 {
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+    font-size: 3em;
+}
+header > p {
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+nav {
+    background-color: rgba(15, 37, 22, 0.596);
+    padding: 8px 0px 8px 5px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.397);
+    margin-bottom: 2px;
+}
+
+nav > a {
+    font-family: "Android";
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none; 
+    
+}
+
+nav a:hover {
+    background-color: white;
+    color: green;
+    font-size: 95%;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.384);
+    transition-duration: 0.8s;
+}
+
+body {
+    background-color: rgb(31, 255, 180);
+    
+}
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 0.5px black;
+    min-width: 350px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.74);
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+main h1 {
+    font-family: "Android";
+    text-indent: 30px;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px green;
+}
+
+h1.destaques {
+    background-image: linear-gradient(to right,rgba(0, 255, 0, 0.418),transparent);
+    font-size: 1.6em;
+    font-weight: normal;
+    
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 10px 20px 10px 20px;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#bug {
+    width: 40%;
+}
+
+#video {
+    background-color: green;
+
+}
+
+#title {
+    background-color: rgb(11, 184, 11);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin: 15px 15px 0px 15px;
+    border: 1px solid rgb(11, 184, 11);
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.253);
+}
+
+.p {
+    background-color: rgb(43, 255, 191);
+    font-weight: bold;
+    padding: 15px;
+    margin: 0px 15px;
+}
+
+aside {
+    background-color: rgb(28, 209, 28);
+    margin: 0px 15px 15px 15px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+}
+
+aside h1 {
+    background-color: rgb(36, 173, 36);
+    margin-top: 15px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    color: white;
+
+}
+
+aside p {
+    padding: 5px 0px 10px 0px;
+
+}
+
+aside ul {
+    list-style-position: inside;
+    list-style: none;
+    text-align: justify;
+    columns: 2;
+    padding-left: 20px;
+}
+
+
+div.video {
+    background-color: green;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+footer {
+    background-color: rgb(1, 100, 62);
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(0, 255, 221);
+    font-size: 105%;
+}

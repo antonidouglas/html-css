@@ -18,13 +18,14 @@
 html, body {
     font-family: var(--font1);
     min-height: 100vh;
-    background-color: darkgrey;
+
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+
 }
 
 header > h1 {
@@ -54,7 +55,11 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 4vw;
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -63,14 +68,32 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgb(148, 148, 148);
+    background-color: black;
     color: white;
+    box-shadow: inset 5px 5px 13px 0px black;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+
+
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+
+
 }
 
 section.imagem >p {
-    background-color: rgba(0, 0, 0, 0.274);
+    background-color: rgba(0, 0, 0, 0.178);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 3px black;
 }
 
 footer {

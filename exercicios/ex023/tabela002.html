@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+
+            
+            
+        }
+
+        thead {
+            background-color: rgba(189, 189, 189, 0.418);
+        }
+        thead th {
+            border: 1px solid black;
+            padding: 5px 25px 5px 25px;
+            color: rgba(0, 0, 0, 0.39);
+            
+        }
+
+        tbody td {
+            border: 1px solid black;
+            padding: 10px 10px 10px 5px;
+            
+        }
+        
+        td.imp {
+            font-weight: bolder;
+            color: rgba(0, 0, 0, 0.74);
+            
+        }
+
+        tfoot th {
+            border: 1px solid black;
+            padding: 5px;
+            color: rgba(0, 0, 0, 0.459);
+        }
+    </style>
+</head>
+<body> 
+    <h1>Tabelas Grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Classificação</th>
+                <th>P</th>
+                <th>J</th>
+                <th>V</th>
+                <th>E</th>
+                <th>D</th>
+                <th>GP</th>
+                <th>GC</th>
+                <th>SG</th>
+                <th>%</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="imp">Botafogo</td>
+                <td class="imp">43</td>
+                <td>17</td>
+                <td>14</td>
+                <td>1</td>
+                <td>2</td>
+                <td>32</td>
+                <td>10</td>
+                <td>22</td>
+                <td>84</td>
+            </tr>
+            <tr>
+                <td class="imp">Flamengo</td>
+                <td class="imp">31</td>
+                <td>17</td>
+                <td>9</td>
+                <td>4</td>
+                <td>4</td>
+                <td>30</td>
+                <td>20</td>
+                <td>10</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td class="imp">Palmeiras</td>
+                <td class="imp">31</td>
+                <td>17</td>
+                <td>8</td>
+                <td>7</td>
+                <td>2</td>
+                <td>32</td>
+                <td>15</td>
+                <td>17</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Times</th>
+                <th>Partidas</th>
+                <th>Jogos</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Gols Pró</th>
+                <th>Gols Contra</th>
+                <th>Saldo de Gols</th>
+                <th>% de Vitorias</th>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

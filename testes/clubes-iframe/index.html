@@ -21,15 +21,18 @@
             text-align: center;
             height: 100px;
             padding: 50px;
-            margin-bottom: 15px;
             
+        }
+
+        nav {
+            background-color: black;
+            height: 35px;
         }
 
         a {
             font-size: 1.1em;
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
-            border: 1px solid black;
             margin-left: 5px;
             padding: 10px;
             background-color: black;
@@ -45,13 +48,23 @@
             
         }
 
+        main {
+
+        }
+
         iframe {
+            display: block;
+            margin: auto;
             width: 95vh;
             height: 500px;
             border: 2px solid black;
             border-radius: 20px;
             box-shadow: 3px 3px rgba(0, 0, 0, 0.37);
-            margin-top: 15px;
+            
+        }
+
+        footer {
+            background-color: blue;
         }
 
     </style>
@@ -65,10 +78,13 @@
         <a href="santos.html" target="tela">Santos</a>
         <a href="palmeiras.html" target="tela">Palmeiras</a>
         <a href="corinthians.html" target="tela"> Corinthians</a>
-
     </nav>
-
-    <iframe name="tela" src="saopaulo.html"></iframe>
+    <main>
+        <iframe name="tela" src="saopaulo.html"></iframe>
+    </main>
+    <footer>
+        
+    </footer>
     
 </body>
 </html>

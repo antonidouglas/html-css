@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C7EACB;
+}
+
+header {
+    background-image: linear-gradient(to top,#62B36C,#7EE68A,#62B36C);
+    background-position: center center;
+    text-align: center;
+    min-height: 150px;
+    min-width: 450px;
+    padding-top: 35px;
+
+}
+
+header h1 {
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(60, 250, 53);
+    font-size: 3.8em;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+nav {
+    background-image: linear-gradient(to top,#62B36C,#62B36C);
+    background-position: center bottom;
+    height: 35px;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+nav a {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+nav a:hover {
+    color: black;
+    font-size: 1.2em;
+    padding: 0px 10px;
+    transition-duration: 0.7s;
+    
+}
+
+article {
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+ul a {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+ul a:hover {
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow: 1px 1px 4px black;
+    transition-duration: 0.5s;
+    margin: 0px 0px 0px 15px;
+    
+    
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.596);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    width: 85vh;
+    height: 500px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.459);
+    
+}
+
+footer {
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+
+}

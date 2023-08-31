@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form004</title>
+    <style>
+        fieldset {
+            width: 250px;
+            height: 100px;
+            box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.233);
+        }
+
+        legend {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .input-button input {
+            border: none;
+            height: 30px;
+            background-color: rgb(0, 110, 255);
+            color: white;
+            border-radius: 5px;
+            box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.425);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Formulario 4</h1>
+    <form autocomplete="on" action="#">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" autocomplete="tel" required pattern="^[0-9]{4,5}-[0-9]{4}$">
+            </div>
+        </fieldset>
+        <br>
+        <!-- Estudar RegEx-->
+        <div class="input-button">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    
+</body>
+</html>

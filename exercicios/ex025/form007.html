@@ -7,8 +7,43 @@
 </head>
 <body>  
     <h1>Formulario 7</h1>
-    <form action="" method="get" autocomplete="on">
-
+    <form action="" method="post" autocomplete="on">
+        <div>
+            <label for="itime">Times</label>
+            <select name="time" id="itime" required>
+                <option value="" disabled selected>--- Escolha ---</option>
+                <optgroup label="Paulistas">
+                    <option value="SPFC">São Paulo</option>
+                    <option value="SEP">Palmeiras</option>
+                    <option value="SCCP">Corinthians</option>
+                    <option value="SFC">Santos</option>
+                </optgroup>
+                <optgroup label="Cariocas">
+                    <option value="FLA">Flamengo</option>
+                    <option value="FLU">Fluminense</option>
+                    <option value="VAS">Vasco</option>
+                    <option value="BOT">Botafogo</option>
+                </optgroup>
+                <optgroup label="Gaúchos">
+                    <option value="INT">Internacional</option>
+                    <option value="GRE">Gremio</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="DEV">Progamador</option>
+                <option value="ADM">Administrador</option>
+                <option>Balconista</option>
+                <option>Segurança</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="imsg">Mensagem</label> <br>
+            <textarea  style="resize: none" name="msg" id="imsg" cols="50" rows="10" placeholder="Sua mensagem aqui..." maxlength="562"></textarea>
+        </div>
 
         <div>
             <input type="submit" value="Enviar">

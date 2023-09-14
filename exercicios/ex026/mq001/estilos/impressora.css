@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px 4px black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.651);
+    padding: 20px;
+}
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: "Esse artigo foi retirado do site www.exemplo.com.br.";
+}
